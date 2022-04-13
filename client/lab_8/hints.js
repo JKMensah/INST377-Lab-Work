@@ -5,3 +5,6 @@ map.eachLayer((layer) => {
     layer.remove();
   }
 });
+
+
+addding
