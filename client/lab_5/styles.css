@@ -27,24 +27,40 @@ body {
 }
 
 .form-row {
+  display: flex;
+
   background-color: #F6F7F8;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   
-  width: 80%;
+  width: 20%;
   padding: 50px;
   margin: 0 0 40px 0;
+  margin-left: 120px;
 }
 
 .Headerform-row {
-  background-color: #9bffa3;
-  border: 1px solid #8bc5ff;
+  background-color: rgb(246, 255, 187);
+  border: 1px solid #fffbb9;
   border-radius: 3px;
   
   width: 80%;
   padding: 50px;
   margin: 0 0 40px 0;
+  margin-left: 5mm;
 }
+
+.Footerform-row{
+  display: inline-block;
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+
+  
+  width: 300px;
+  padding: 50px;
+  margin: 0 0 40px 0;
+}
+
 
 .legacy-form-row {
   border: none;
@@ -69,3 +85,9 @@ body {
 .legacy-form-row input[type='radio'] {
   float: left;
 }
+
+.firstname{
+align-items: left;
+margin-right: 15em;
+}
+
