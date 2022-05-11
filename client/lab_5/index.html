@@ -2,9 +2,10 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
-    <title>Joshua Mensah Lab 3: Flexbox Demo</title>
+    <title>Joshua Mensah Lab 5: HTML Forms, CSS Frameworks, HTTP Methods</title>
     <link rel='stylesheet' href='styles.css'/>
     <script src="script.js"></script>
+  
   </head>
   <body>
     <header class='speaker-form-header'>
@@ -12,9 +13,43 @@
       <p><em>Want to speak at our fake conference? Fill out
         this form.</em></p>
     </header>
+    <div class='Headerform-row'>
+      Joshua Mensah's Lab 5
+    </div>
+    <div class='form-row'>
+      <label for='First_Name'>First Name</label>
+      <input id='First_Name'
+             name='First_Name'
+             type='First_Name'/>
 
-I tried
+      <label for='Food Preferences'>Food Preferences</label>
+      <input id='Food Preferences'
+             name='Food Preferences'
+             type='Food Preferences'/>
 
+
+             <fieldset class='legacy-form-row'>
+              <legend>Veggie or Vegan?</legend>
+              <input id='talk-type-1'
+                     name='talk-type'
+                     type='radio'
+                     value='main-stage' />
+              <label for='talk-type-1' class='radio-label'>Yes</label>
+              <input id='talk-type-2'
+                     name='talk-type'
+                     type='radio'
+                     value='workshop'
+                     checked />
+              <label for='talk-type-2' class='radio-label'>No</label>
+            </fieldset>
+            <div class='button'>
+              <button>Submit</button>
+            </div>
+        
+    </div>
+    <div class='form-row'>
+      This is going to be something in two weeks
+     </div>
 
 </body>
 </html>
